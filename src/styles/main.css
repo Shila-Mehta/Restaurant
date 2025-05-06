@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width:100%;
+}
+
+
+:root{
+    --primary-color:rgb(209, 175, 150);
+    --text-color:white;
+    --header-color: linear-gradient(160deg,rgb(248, 96, 96),#f57474,rgb(248, 130, 130),rgb(255, 84, 84));
+    --nav-btn:linear-gradient(135deg,rgb(252, 19, 19),rgb(245, 38, 38),rgb(187, 8, 29),red);
+    
+}
+
+
+header{
+    height: 30%;
+    /* border:2px solid rgb(0, 8, 255); */
+}
+
+nav{
+    /* border:2px solid red; */
+    display: flex;
+    background:var(--header-color);   
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.nav-left {
+    height: 100%; 
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .img-logo-container {
+    width: 150px;           /* Fixed width for perfect circle */
+    height: 150px;          /* Equal height */
+    /* border: 2px solid red; */
+    border-radius: 50%;     /* Makes it circular */
+    overflow: hidden;       /* Prevents image overflow */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .img-logo-container img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+ .nav-left img:hover{
+    transform: scale(1.07);
+ }
+
+
+.nav-right  {
+ /* border:2px solid red; */
+ height: 100%;
+ width: 70%;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+
+}
+
+.nav-right button{
+    /* border-radius: 1.5rem; */
+    padding: 1.5rem 2rem;
+    border: none;
+    background:var(--nav-btn);
+    color:var(--text-color);
+    font-weight: 900;
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: 1px 1px 15px rgb(165, 5, 5);
+    transition: transform 0.3s ease-in-out,background 0.4s ease-out,shadow 0.5s ease-in;
+
+}
+
+
+.nav-right button:hover{
+    transform: scale(1.07);
+    background: rgb(249, 162, 162);
+    box-shadow: 1px 1px 15px red;
+}
+
+
+.nav-right img{
+    width: 1.5rem;
+    height:1.5rem;
+    margin-right: 0.5rem;
+}
+
+
+
+#content{
+    position: relative;
+    /* border:2px solid red; */
+    height: 100%;
+    background-color: pink;
+    overflow-y: auto;
+}
+
+
+
+#footer{
+    /* border:2px solid red; */
+    height:10%;
+    background: var(--header-color);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:1rem;
+    color:var(--footer-color);
+    font-size: 1.2rem;
+
+}
+
+#footer img{
+height:1.5rem;
+width:1.5rem;
+}
