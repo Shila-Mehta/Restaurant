@@ -6,7 +6,7 @@ import  Spaghetti_Carbonara  from  '../assets/Spaghetti Carbonara.jpg';
 import Grilled_Chicken  from '../assets/roasted chicken.jpg';
 import  Chocolate_Brownie  from '../assets/Chocolate Brownie.jpg';
 import Vanilla_Ice_Cream  from  '../assets/vanilla icecream.jpg';
-import  Cheesecake  from '../assets/cheese Pizza.jpg';
+import  Cheesecake  from '../assets/cheesecake.jpg';
 import Lemonade  from '../assets/Lemonade.jpg';
 import  Soda from '../assets/soda.jpg';
 import Iced_Tea  from '../assets/Iced Tea.jpg';
