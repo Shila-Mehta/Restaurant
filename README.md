@@ -136,7 +136,7 @@ Google Maps Embed	Used inside About Page for location section
     └── webpack.config.js
 ```
 
-🚀 Future Enhancements
+## 🚀 Future Enhancements
 
 🧾 Add persistent cart using localStorage
 
@@ -148,7 +148,7 @@ Google Maps Embed	Used inside About Page for location section
 
 🌐 Add language selection feature
 
-👩‍💻 Author
+## 👩‍💻 Author
 Nimra Abdul Jabbar
 
 GitHub:(https://github.com/)
