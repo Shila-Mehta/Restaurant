@@ -1,12 +1,9 @@
-🍽️ The Food's Den — Restaurant Website
+## 🍽️ The Food's Den — Restaurant Website
 
 A fully interactive and modular restaurant web application built using vanilla JavaScript, HTML, and CSS.
 It dynamically renders pages like Home, Menu, About, Cart, and Order Confirmation using JavaScript components — no frameworks required!
 
-🖼️ Screenshots
-
-💡 Tip: When editing this README on GitHub, just take screenshots and press Ctrl + V to paste — GitHub will automatically upload and embed them.
-
+## 🖼️ Screenshots
 🏠 Home Page
 <img width="2720" height="3052" alt="shila-mehta github io_Restaurant_ (5)" src="https://github.com/user-attachments/assets/7423969a-877c-4e21-ba95-6d63ad246e07" />
 
@@ -23,6 +20,10 @@ It dynamically renders pages like Home, Menu, About, Cart, and Order Confirmatio
 
 <img width="2720" height="3052" alt="shila-mehta github io_Restaurant_ (8)" src="https://github.com/user-attachments/assets/aa2687de-0db0-444b-ad70-7279a8f0b9b5" />
 
+Order Page 
+<img width="2720" height="3052" alt="shila-mehta github io_Restaurant_ (9)" src="https://github.com/user-attachments/assets/72c90195-2fd1-4780-b4ef-ab6a5a1e911a" />
+
+
 
 
 ## Live Demo (https://shila-mehta.github.io/Restaurant/)
@@ -34,7 +35,7 @@ Maps	Google Maps Embed API
 Version Control	Git & GitHub
 
 
-🌟 Features
+## 🌟 Features
 
 🏠 Home Page – Engaging hero image, tagline, and restaurant story
 
@@ -52,7 +53,7 @@ Version Control	Git & GitHub
 
 📱 Responsive Layout – Works on both desktop and mobile screens
 
-🧠 Core Concepts
+## 🧠 Core Concepts
 Concept	Description
 createElement	Utility for dynamically creating DOM elements with class names and text
 createButton, createImage, createFeatureCard	Modular UI components
@@ -61,7 +62,7 @@ filterMenuItems, createFilter	Handles menu item filtering logic
 updateTotal	Dynamically recalculates cart totals
 Google Maps Embed	Used inside About Page for location section
 
-🧱 Folder Structure
+## 🧱 Folder Structure
 ```
 └── 📁Restaurant
             └── 📁src
@@ -135,17 +136,6 @@ Google Maps Embed	Used inside About Page for location section
     └── webpack.config.js
 ```
 
-💻 Getting Started
-
-Clone the repository and open the project locally:
-
-# Clone the repository
-git clone https://github.com/your-username/restaurant-app.git
-
-Then open index.html directly in your browser to view the site.
-
-If you’re using a local server (like Live Server in VS Code), you can also preview it dynamically.
-
 🚀 Future Enhancements
 
 🧾 Add persistent cart using localStorage
@@ -159,9 +149,7 @@ If you’re using a local server (like Live Server in VS Code), you can also pre
 🌐 Add language selection feature
 
 👩‍💻 Author
+Nimra Abdul Jabbar
 
-Your Name
+GitHub:(https://github.com/)
 
-GitHub: @your-username
-
-Portfolio: your-portfolio-link.com
